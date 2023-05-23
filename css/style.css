@@ -1,0 +1,27 @@
+/* HEADER */
+
+header > section{
+    background-color: var(--first-color);
+}
+
+.head{
+    justify-content: space-between;
+}
+
+.col-header{
+    width: calc(100% / 2);
+}
+
+.col-sect-1-2{
+    width: 100%;
+    background-color: var(--second-color);
+}
+
+.col-sect-2-2{
+    width: 100%;
+    background-color: var(--second-color);
+}
+
+.sect-1{
+    flex-wrap: wrap; 
+}

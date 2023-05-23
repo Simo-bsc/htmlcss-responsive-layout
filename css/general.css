@@ -9,3 +9,8 @@
     display: flex;
 }
 
+:root{
+    --first-color: #0084FD;
+    --second-color: #B5DDFF;
+    --thirt-color: #9792E4;
+}
