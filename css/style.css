@@ -14,19 +14,19 @@
 
 .col-sect-blue-1{
     width: 100%;
-    margin: 0px 10px 0px 10px;
+    margin: 10px;
 }
 
 .col-sect-blue-2{
     width: 100%;
-    margin: 0px 10px 0px 10px;
+    margin: 10px;
 }
 
 /* 1-VIOLET SECTION     */
 
 .col-sect-1{
     width: 100%;
-    margin: 0px 10px 0px 10px;
+    margin: 10px;
 }
 
 
@@ -34,7 +34,7 @@
 
 .col-sect-2{
     width: 100%;
-    margin: 0px 10px 0px 10px;
+    margin: 10px;
 }
 
 
@@ -43,7 +43,7 @@
 
 .col-sect-3{
     width: 100%;
-    margin: 0px 10px 0px 10px;
+    margin: 10px;
 }
 
 
@@ -51,7 +51,7 @@
 
 .col-sect-4{
     width: 100%;
-    margin: 0px 10px 0px 10px;
+    margin: 10px;
 }
 
 
@@ -79,7 +79,7 @@
 
 /* TABLET */
 
-@media screen and (min-width: 768px;){
+@media screen and (min-width: 768px){
 
         /* MAIN */
 
@@ -125,7 +125,7 @@
 
 /* DESKTOP */
 
-@media screen and (min-width: 992px;){
+@media screen and (min-width: 992px){
 
 
     
