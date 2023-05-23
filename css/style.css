@@ -14,16 +14,19 @@
 
 .col-sect-blue-1{
     width: 100%;
+    margin: 0px 10px 0px 10px;
 }
 
 .col-sect-blue-2{
     width: 100%;
+    margin: 0px 10px 0px 10px;
 }
 
 /* 1-VIOLET SECTION     */
 
 .col-sect-1{
     width: 100%;
+    margin: 0px 10px 0px 10px;
 }
 
 
@@ -31,6 +34,7 @@
 
 .col-sect-2{
     width: 100%;
+    margin: 0px 10px 0px 10px;
 }
 
 
@@ -39,6 +43,7 @@
 
 .col-sect-3{
     width: 100%;
+    margin: 0px 10px 0px 10px;
 }
 
 
@@ -46,6 +51,7 @@
 
 .col-sect-4{
     width: 100%;
+    margin: 0px 10px 0px 10px;
 }
 
 
@@ -64,6 +70,65 @@
 #bg-black{
     background-color: black;
     color: white;
+}
+
+
+
+
+/* RESPONSIVE WITH MEDIA QUERY */
+
+/* TABLET */
+
+@media screen and (min-width: 768px;){
+
+        /* MAIN */
+
+    /* BLUE SECTION */
+
+    .col-sect-blue-1{
+        width: calc(100% /2);
+    }
+
+    .col-sect-blue-2{
+        width: calc(100% /3);
+    }
+
+    /* 1-VIOLET SECTION     */
+
+    .col-sect-1{
+        width: 100%;
+    }
+
+
+    /* 2-VIOLET SECTION     */
+
+    .col-sect-2{
+        width: 100%;
+    }
+
+
+
+    /* 3-VIOLET SECTION     */
+
+    .col-sect-3{
+        width: calc(100% /2);
+    }
+
+
+    /* 4-VIOLET SECTION     */
+
+    .col-sect-4{
+        width: calc(100% /2);
+    }
+
+}
+
+/* DESKTOP */
+
+@media screen and (min-width: 992px;){
+
+
+    
 }
 
 
