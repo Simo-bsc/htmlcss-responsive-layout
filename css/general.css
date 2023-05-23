@@ -9,8 +9,28 @@
     display: flex;
 }
 
+.flex-wrap{
+    flex-wrap: wrap; 
+}
+
+
+
+/* BG COLOR */
+
 :root{
     --first-color: #0084FD;
     --second-color: #B5DDFF;
     --thirt-color: #9792E4;
+}
+
+header > section{
+    background-color: var(--first-color);
+}
+
+.col-sect-blue-1, .col-sect-blue-2{
+    background-color: var(--second-color);
+}
+
+.bg-violet{
+    background-color: var(--thirt-color);
 }

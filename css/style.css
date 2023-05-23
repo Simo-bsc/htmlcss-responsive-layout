@@ -1,9 +1,5 @@
 /* HEADER */
 
-header > section{
-    background-color: var(--first-color);
-}
-
 .head{
     justify-content: space-between;
 }
@@ -12,16 +8,40 @@ header > section{
     width: calc(100% / 2);
 }
 
-.col-sect-1-2{
+/* MAIN */
+
+/* BLUE SECTION */
+
+.col-sect-blue-1{
     width: 100%;
-    background-color: var(--second-color);
 }
 
-.col-sect-2-2{
+.col-sect-blue-2{
     width: 100%;
-    background-color: var(--second-color);
 }
 
-.sect-1{
-    flex-wrap: wrap; 
+/* 1-VIOLET SECTION     */
+
+.col-sect-1{
+    width: 100%;
 }
+
+
+
+/* 2-VIOLET SECTION     */
+
+
+
+
+
+/* 3-VIOLET SECTION     */
+
+
+
+
+/* 4-VIOLET SECTION     */
+
+
+
+
+
