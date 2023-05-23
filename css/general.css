@@ -13,6 +13,12 @@
     flex-wrap: wrap; 
 }
 
+.link-button{
+    background-color: #0061FF;
+    border: 0;
+    color: white;
+    padding: 10px;
+}
 
 
 /* BG COLOR */
@@ -33,4 +39,8 @@ header > section{
 
 .bg-violet{
     background-color: var(--thirt-color);
+}
+
+.bg-white{
+    background-color: white;
 }

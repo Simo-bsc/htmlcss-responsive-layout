@@ -27,21 +27,43 @@
 }
 
 
-
 /* 2-VIOLET SECTION     */
 
-
+.col-sect-2{
+    width: 100%;
+}
 
 
 
 /* 3-VIOLET SECTION     */
 
-
+.col-sect-3{
+    width: 100%;
+}
 
 
 /* 4-VIOLET SECTION     */
 
+.col-sect-4{
+    width: 100%;
+}
 
 
+
+/* FOOTER */
+
+
+/* 1-SECTION FOOTER */
+
+
+
+
+
+/* 2-SECTION FOOTER */
+
+#bg-black{
+    background-color: black;
+    color: white;
+}
 
 
