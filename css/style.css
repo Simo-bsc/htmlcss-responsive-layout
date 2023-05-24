@@ -17,13 +17,28 @@
 
 .col-sect-blue-1-1{
     width: 100%;
-    text-align: center;
     display: flex;
     flex-wrap: wrap;
 }
 
 .col-in-section1{
     width: 100%;
+}
+
+.col-in-section1 h2, p {
+    text-align: start;
+    padding: 20px 0px 20px 20px;
+}
+
+.col-in-section1 button{
+    margin-left: 20px;
+    width: 150px;
+}
+
+.col-in-section2 img{
+    position: relative;
+    left: 30px;
+    margin-top: 20px;
 }
 
 .col-in-section2{
@@ -48,6 +63,12 @@ p > i{
     font-size: 70px;
 }
 
+.col-sect-blue-1-1,
+.col-sect-blue-1-2,
+.col-sect-blue-2{
+    margin: 20px 0px 20px 0px;
+}
+
 
 /* 1-VIOLET SECTION     */
 
@@ -55,10 +76,27 @@ p > i{
     width: 100%;
 }
 
+.col-sect-1 img{
+    padding: 15px 0px 15px 0px;
+}
+
+.col-sect-1 h2, p{
+    margin-top: 25px;
+    text-align: center;
+}
+
+
 .circle{
     background-color: var(--thirt-color);
     font-size: 20px;
-    color: black;    
+    color: black;  
+    position: relative;
+    left: 150px;  
+    margin-bottom: 25px;
+    border-radius: 50%;
+    border: none;
+    display: inline-block;
+    text-align: center;
 }
 
 .col-sect-1 p{
@@ -70,11 +108,35 @@ p > i{
 
 .col-sect-2{
     width: 100%;
+    margin-top: 30px;
+}
+
+.h2-section2{
+    text-align: center;
+    font-size: 2em;
 }
 
 .col-in-sect-2-2{
     color: white;
     text-align: center;
+}
+
+.col-in-sect-1-2 img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-left: 65px;
+    margin-top: 25px;
+}
+
+.col-in-sect-2-2 i{
+    font-size: 20px;
+}
+
+.col-in-sect-2-2 h2{
+    color: white;
+    margin-bottom: 15px;
 }
 
 /* 3-VIOLET SECTION     */
@@ -89,6 +151,22 @@ p > i{
 
 .col-sect-3 button{
     background-color: var(--thirt-color);
+}
+
+.h2-head-sect3{
+    text-align: center;
+    font-size: 1.5em;
+    margin: 20px;
+}
+
+.col-sect-3 > *{
+    text-align: left;
+    padding-left: 25px;
+}
+
+.col-sect-3 h1{
+    font-size: 3em;
+    margin: 20px 20px 20px 0px;
 }
 
 /* 4-VIOLET SECTION     */
@@ -124,7 +202,22 @@ p > i{
 
 @media screen and (min-width: 768px){
 
-        /* MAIN */
+    /* HEADER */
+
+    .col-header img{
+        width: 40%;
+        padding-top: 20px;
+    }
+
+    .toggle-menu{
+        color: white;
+        text-align: right;
+        font-size: 50px;
+        padding-top: 10px;
+    }
+
+
+    /* MAIN */
 
     /* BLUE SECTION */
 
@@ -198,6 +291,13 @@ p > i{
 /* DESKTOP */
 
 @media screen and (min-width: 992px){
+
+    /* HEADER */
+
+    .col-header img{
+        width: 30%;
+        padding-top: 20px;
+    }
 
     /* MAIN */
 
