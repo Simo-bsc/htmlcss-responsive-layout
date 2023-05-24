@@ -14,19 +14,16 @@
 
 .col-sect-blue-1{
     width: 100%;
-    margin: 10px;
 }
 
 .col-sect-blue-2{
     width: 100%;
-    margin: 10px;
 }
 
 /* 1-VIOLET SECTION     */
 
 .col-sect-1{
     width: 100%;
-    margin: 10px;
 }
 
 
@@ -34,7 +31,6 @@
 
 .col-sect-2{
     width: 100%;
-    margin: 10px;
 }
 
 
@@ -43,7 +39,6 @@
 
 .col-sect-3{
     width: 100%;
-    margin: 10px;
 }
 
 
@@ -51,7 +46,6 @@
 
 .col-sect-4{
     width: 100%;
-    margin: 10px;
 }
 
 
@@ -86,17 +80,20 @@
     /* BLUE SECTION */
 
     .col-sect-blue-1{
-        width: calc((100% / 2) - 20px);
+        width: calc((100% / 2) - 40px);
+        margin: 10px;
     }
 
     .col-sect-blue-2{
-        width: calc((100% / 3) - 20px);
+        width: calc((100% / 3) - 40px);
+        margin: 10px;
     }
 
     /* 1-VIOLET SECTION     */
 
     .col-sect-1{
         width: 100%;
+        margin: 10px;
     }
 
 
@@ -104,6 +101,7 @@
 
     .col-sect-2{
         width: 100%;
+        margin: 10px;
     }
 
 
@@ -111,14 +109,16 @@
     /* 3-VIOLET SECTION     */
 
     .col-sect-3{
-        width: calc((100% / 2) - 20px);
+        width: calc((100% / 2) - 40px);
+        margin: 10px;
     }
 
 
     /* 4-VIOLET SECTION     */
 
     .col-sect-4{
-        width: calc((100% / 2) - 20px);
+        width: calc((100% / 2) - 40px);
+        margin: 10px;
     }
 
 }
@@ -127,22 +127,33 @@
 
 @media screen and (min-width: 992px){
 
-           /* MAIN */
+    /* MAIN */
+
+
+    .container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 1.25rem;
+    }      
 
     /* BLUE SECTION */
 
     .col-sect-blue-1{
-        width: calc((100% / 2) - 20px);
+        width: calc((100% / 2) - 2.5rem);
+        margin: 10px;
     }
 
     .col-sect-blue-2{
-        width: calc((100% / 3) - 20px);
+        width: calc((100% / 3) - 2.5rem);
+        margin: 10px;
     }
 
     /* 1-VIOLET SECTION     */
 
     .col-sect-1{
-        width: calc((100% / 2) - 20px)
+        width: calc((100% / 2) - 2.5rem);
+        margin: 10px;
+        
     }
 
 
@@ -150,6 +161,7 @@
 
     .col-sect-2{
         width: 100%;
+        margin: 10px;
     }
 
 
@@ -157,14 +169,16 @@
     /* 3-VIOLET SECTION     */
 
     .col-sect-3{
-        width: calc((100% / 3) - 20px);
+        width: calc((100% / 3) - 2.5rem);
+        margin: 10px;
     }
 
 
     /* 4-VIOLET SECTION     */
 
     .col-sect-4{
-        width: calc((100% / 2) - 20px);
+        width: calc((100% / 2) - 2.5rem);
+        margin: 10px;
     }
     
 }
