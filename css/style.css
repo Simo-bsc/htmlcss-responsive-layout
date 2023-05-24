@@ -8,7 +8,11 @@
 
 /* BLUE SECTION */
 
-.col-sect-blue-1{
+.col-sect-blue-1-1{
+    width: 100%;
+}
+
+.col-sect-blue-1-2{
     width: 100%;
 }
 
@@ -75,13 +79,17 @@
 
     /* BLUE SECTION */
 
-    .col-sect-blue-1{
-        width: calc((100% / 2) - 40px);
+    .col-sect-blue-1-1{
+        width: calc(60% - 2.5rem);
+        margin: 10px;
+    }
+    .col-sect-blue-1-2{
+        width: calc(40% - 2.5rem);
         margin: 10px;
     }
 
     .col-sect-blue-2{
-        width: calc((100% / 3) - 40px);
+        width: calc((100% / 3) - 2.5rem);
         margin: 10px;
     }
 
@@ -134,8 +142,12 @@
 
     /* BLUE SECTION */
 
-    .col-sect-blue-1{
-        width: calc((100% / 2) - 2.5rem);
+    .col-sect-blue-1-1{
+        width: calc(60% - 2.5rem);
+        margin: 10px;
+    }
+    .col-sect-blue-1-2{
+        width: calc(40% - 2.5rem);
         margin: 10px;
     }
 

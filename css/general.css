@@ -38,7 +38,9 @@ header > section{
     background-color: var(--first-color);
 }
 
-.col-sect-blue-1, .col-sect-blue-2{
+.col-sect-blue-1-1,
+.col-sect-blue-2,
+.col-sect-blue-1-2{
     background-color: var(--second-color);
 }
 
