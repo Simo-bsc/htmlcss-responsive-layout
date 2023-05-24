@@ -8,11 +8,13 @@
 
 .row{
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.flex-wrap{
+/* .flex-wrap{
     flex-wrap: wrap; 
-}
+} */
 
 .link-button{
     border: 0;
