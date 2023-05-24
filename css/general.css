@@ -12,12 +12,19 @@
     flex-wrap: wrap;
 }
 
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
 /* .flex-wrap{
     flex-wrap: wrap; 
 } */
 
-.link-button{
+button{
+    background-color: var(--first-color);
+    color: white;
     border: 0;
+    border-radius: 25px;
     padding: 10px;
 }
 
@@ -25,8 +32,14 @@
     border-radius: 25px;
 }
 
+div > img{
+    display: block;
+    width: 80%;
+}
 
-/* BG COLOR */
+
+
+/*  COLOR */
 
 :root{
     --first-color: #0084FD;
@@ -50,4 +63,16 @@ header > section{
 
 .bg-white{
     background-color: white;
+}
+
+.text-blue{
+    color: var(--first-color);
+}
+
+.text-violet{
+    color: var(--thirt-color);
+}
+
+.text-white{
+    color: white;
 }

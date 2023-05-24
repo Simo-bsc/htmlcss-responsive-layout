@@ -4,26 +4,65 @@
     width: calc(100% / 2);
 }
 
+.toggle-menu{
+    color: white;
+    text-align: right;
+    font-size: 30px;
+    padding-top: 5px;
+}
+
 /* MAIN */
 
 /* BLUE SECTION */
 
 .col-sect-blue-1-1{
     width: 100%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-in-section1{
+    width: 100%;
+}
+
+.col-in-section2{
+    width: 100%;
 }
 
 .col-sect-blue-1-2{
     width: 100%;
+    text-align: center;
 }
 
 .col-sect-blue-2{
     width: 100%;
+    text-align: center;
 }
+
+.img-position{
+    width: 80%;
+}
+
+p > i{
+    font-size: 70px;
+}
+
 
 /* 1-VIOLET SECTION     */
 
 .col-sect-1{
     width: 100%;
+}
+
+.circle{
+    background-color: var(--thirt-color);
+    font-size: 20px;
+    color: black;    
+}
+
+.col-sect-1 p{
+    font-style: italic;
 }
 
 
@@ -33,7 +72,10 @@
     width: 100%;
 }
 
-
+.col-in-sect-2-2{
+    color: white;
+    text-align: center;
+}
 
 /* 3-VIOLET SECTION     */
 
@@ -41,6 +83,13 @@
     width: 100%;
 }
 
+.col-sect-3 h1,h2{
+    color: var(--thirt-color);
+}
+
+.col-sect-3 button{
+    background-color: var(--thirt-color);
+}
 
 /* 4-VIOLET SECTION     */
 
@@ -82,10 +131,20 @@
     .col-sect-blue-1-1{
         width: calc(60% - 2.5rem);
         margin: 10px;
+        display: flex;
+        flex-wrap: wrap;
     }
     .col-sect-blue-1-2{
         width: calc(40% - 2.5rem);
         margin: 10px;
+    }
+
+    .col-in-section1{
+        width: 100%;
+    }
+    
+    .col-in-section2{
+        width: 100%;
     }
 
     .col-sect-blue-2{
@@ -154,10 +213,20 @@
     .col-sect-blue-1-1{
         width: calc(60% - 2.5rem);
         margin: 10px;
+        display: flex;
+        flex-wrap: wrap;
     }
     .col-sect-blue-1-2{
         width: calc(40% - 2.5rem);
         margin: 10px;
+    }
+
+    .col-in-section1{
+        width: 60%;
+    }
+    
+    .col-in-section2{
+        width: 40%;
     }
 
     .col-sect-blue-2{
