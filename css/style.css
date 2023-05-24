@@ -106,6 +106,15 @@
     .col-sect-2{
         width: 100%;
         margin: 10px;
+        display: flex;
+    }
+
+    .col-in-sect-1-2{
+        width: 40%;
+    }
+
+    .col-in-sect-2-2{
+        width: 60%;
     }
 
 
@@ -171,6 +180,14 @@
     .col-sect-2{
         width: 100%;
         margin: 10px;
+    }
+
+    .col-in-sect-1-2{
+        width: 40%;
+    }
+
+    .col-in-sect-2-2{
+        width: 60%;
     }
 
 
